@@ -1,5 +1,7 @@
 <p align="center">
-![microsoft-azure-logo](https://github.com/user-attachments/assets/224d1e94-831b-454b-aede-33164d928eb0)
+  
+   ![microsoft-azure-logo](https://github.com/user-attachments/assets/224d1e94-831b-454b-aede-33164d928eb0)
+
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
