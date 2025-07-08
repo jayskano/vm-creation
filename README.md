@@ -2,7 +2,7 @@
   <img src="https://github.com/user-attachments/assets/a60432c2-d616-46bc-a9de-e813a2a88036" width="600" />
 </p>
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
+<h1>Creating a Windows and a Linux Virtual Machine in the Cloud (Azure)</h1>
 This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
 
