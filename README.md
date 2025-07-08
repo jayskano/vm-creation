@@ -3,33 +3,24 @@
 </p>
 
 <h1>Creating a Windows and a Linux Virtual Machine in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
-
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
+This tutorial outlines the creation of a Windows and a Linux Virtual Machine (VM) in Azure.<br />
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Active Directory Domain Services
-- PowerShell
 
 <h2>Operating Systems Used </h2>
 
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+<h2>VM Creation Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1: Create a Resource Group in Azure
+- Step 2: Create a Windows VM in Azure
+- Step 3: Create a Linux VM in Azure
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Walkthrough</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
