@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/060dc807-26ea-4b3b-88ec-a9b904edee49" width="500"/>
+  <img src="https://github.com/user-attachments/assets/a60432c2-d616-46bc-a9de-e813a2a88036" width="600" />
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
