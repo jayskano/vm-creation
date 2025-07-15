@@ -11,8 +11,8 @@ This project demonstrates how I created a Windows and a Linux Virtual Machine (V
 
 <h2>Operating Systems Used </h2>
 
-- Windows Server 2022
-- Windows 10 (21H2)
+- Windows 10 (22H2)
+- Ubuntu Server 24.04
 
 <h2>Walkthrough</h2>
 <h3> Step 1: Creating a Resource Group in Azure </h3>
@@ -32,8 +32,9 @@ This project demonstrates how I created a Windows and a Linux Virtual Machine (V
 </p>
 <p>
 
-  - After clicking "Create", I was directed to the resource group setup screen
-  - I named the resource group "VM-Project" and selected "(US) East US 2" as my region
+  - After clicking "Create", I was directed to the resource group setup screen.
+  - I named the resource group "VM-Project" and selected "(US) East US 2" as my region.
+  - I clicked "Review + create" to complete the setup.
 
 </p>
 <br />
@@ -59,7 +60,7 @@ This project demonstrates how I created a Windows and a Linux Virtual Machine (V
 <p>
 
   - I seletced "Windows 10 Pro, version 22H2" for the operating system (OS) image.
-  - I chose a size with 2 vcpus and 8 GiB memory to ensure smooth performnace for the virtual machine.
+  - I chose a size with 2 vcpus and 8 GiB memory to ensure smooth performance for the virtual machine.
 
 </p>
 <br />
@@ -91,6 +92,96 @@ This project demonstrates how I created a Windows and a Linux Virtual Machine (V
 <p>
 
   - In the "Review + create" tab, I reviewed all of the settings to ensure that everything was correct before selecting "Create".
+
+</p>
+<br />
+
+<h3> Step 3: Creating a Linux VM in Azure </h3>
+
+<p>
+<img src="https://github.com/user-attachments/assets/1623bc96-2fa0-4945-9745-ab2681983c76" width ="800" />
+
+</p>
+<p>
+
+  - After the Windows VM was created, I navigated back to the "Virtual Machines" section to begin creating the 2nd VM for the project.
+  - I selected the "VM-Project" resource group again to match the resource group that was used for the Windows VM.
+  - For this virtual machine, I will be using a Linux OS instead of Windows so I named the VM "linux-vm".
+  - I also chose "(US) East US 2" as the region matching the region for the Windows VM.
+
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/3d76f6f6-2ff0-4cba-818d-c356925b3260" width ="800"/>
+
+</p>
+<p>
+
+  - For the operating system (OS) image, I selected "Ubuntu Server 24.04 LTS - x64 Gen2".
+  - I also selected the same size that I chose for the Windows VM to ensure smooth performance.
+
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/2f9200de-f5bb-4a8a-ac09-0edd08b90155" width="800" />
+
+</p>
+<p>
+
+  - I entered the same Username and Password used for the Windows VM to keep the setup consistent, then clicked "Next" to proceed.
+
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/cb91826d-c440-491c-9523-4d8b9eff741f" width="800" />
+
+</p>
+<p>
+
+  - Under the "Networking" tab, the virtual network "azureproject-vnet" from the previous VM was already pre-selected so I clicked "Review + create" to proceed.
+
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/1e0ca964-7432-4ea5-b716-b39f080a24ae" width="800" />
+
+</p>
+<p>
+
+  - Under the "Review + create" tab, I reviewed all of the information and selected "Create" to complete the setup.
+
+</p>
+<br />
+
+<p>
+<img src="https://github.com/user-attachments/assets/a330f76e-297f-4324-9ae7-409c6a8f9761" width="800" />
+
+</p>
+<p>
+
+- Both virtual machines (VM) were successfully created and are now ready for use!
+
+</p>
+<br />
+
+<h2>Conclusion</h2>
+
+This project helped me better understand the process of creating and configuring virtual machines in Microsoft Azure. I successfully created both a Windows and a Linux VM, configured the necessary settings for each, and ensured everything was deployed correctly. It also helped me get more comfortable navigating the Azure portal, and I look forward to using it more for future projects.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
