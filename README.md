@@ -15,7 +15,7 @@ This project demonstrates how I created a Windows and a Linux Virtual Machine (V
 - Ubuntu Server 24.04
 
 <h2>Walkthrough</h2>
-<h3> Step 1: Creating a Resource Group in Azure </h3>
+<h3> Section 1: Creating a Resource Group in Azure </h3>
 
 <p>
 <img src="https://github.com/user-attachments/assets/1d0bc412-d4d2-47f7-a6df-27eea5b853bd" width="800"/>
@@ -39,7 +39,7 @@ This project demonstrates how I created a Windows and a Linux Virtual Machine (V
 </p>
 <br />
 
-<h3> Step 2: Creating a Windows VM in Azure </h3>
+<h3> Section 2: Creating a Windows VM in Azure </h3>
 
 <p>
 <img src="https://github.com/user-attachments/assets/5411d865-7bce-4628-a495-b492ff9a52f9" width="800" />
@@ -96,7 +96,7 @@ This project demonstrates how I created a Windows and a Linux Virtual Machine (V
 </p>
 <br />
 
-<h3> Step 3: Creating a Linux VM in Azure </h3>
+<h3> Section 3: Creating a Linux VM in Azure </h3>
 
 <p>
 <img src="https://github.com/user-attachments/assets/1623bc96-2fa0-4945-9745-ab2681983c76" width ="800" />
